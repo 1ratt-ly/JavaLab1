@@ -1,4 +1,4 @@
 package ua.kpi.comsys.dop;
 
-public class Cancelled {
+public record Cancelled() implements OrderStatus {
 }

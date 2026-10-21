@@ -1,4 +1,4 @@
 package ua.kpi.comsys.dop;
 
-public class Paid {
+public record Paid() implements OrderStatus {
 }

@@ -1,4 +1,4 @@
 package ua.kpi.comsys.dop;
 
-public class Shipped {
+public record Shipped() implements OrderStatus {
 }

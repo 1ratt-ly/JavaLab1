@@ -1,4 +1,5 @@
 package ua.kpi.comsys.dop;
 
-public class Pending {
+public record Pending() implements OrderStatus {
+
 }
